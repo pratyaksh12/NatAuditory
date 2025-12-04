@@ -1,0 +1,28 @@
+{
+  "TargeHost": "google.com",
+  "ScanTime": "2025-12-05T01:38:18.962703+11:00",
+  "IsReachable": true,
+  "DnsResolvedIp": "192.178.187.139",
+  "PortScanResult": [
+    {
+      "Port": 5060,
+      "ServiceName": "SIP (VoIP)",
+      "Status": "TIMEOUT"
+    },
+    {
+      "Port": 5061,
+      "ServiceName": "SIP-TLS (Secure)",
+      "Status": "TIMEOUT"
+    },
+    {
+      "Port": 80,
+      "ServiceName": "HTTP (Web)",
+      "Status": "OPEN"
+    },
+    {
+      "Port": 443,
+      "ServiceName": "HTTPS (Secure)",
+      "Status": "OPEN"
+    }
+  ]
+}
